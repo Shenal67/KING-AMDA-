@@ -31,21 +31,21 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "zB4ViQYI#npvl6obxTwwzNvcWDc8uovqjQcjsWcJzg56ET0QoycM",
-    CAPTION: process.env.CAPTION || "POWERED BY AMDA(SHENAL)",
+    SESSION_ID: process.env.SESSION_ID || "KAgCBTCa#DRGVJ83w9CsKmcIAn481kR6ZlwQC62ABQWYPh4sZUjo",
+    CAPTION: process.env.CAPTION || "POWERED BY AMDA",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-    AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
-    READ_MESSAGE: process.env.READ_MESSAGE || "false", // Added auto-read configuration
+    AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "true",
+    READ_MESSAGE: process.env.READ_MESSAGE || "true", // Added auto-read configuration
     MODE: process.env.MODE || "public",
     AUTO_VOICE: process.env.AUTO_VOICE || "true",
-    AUTO_STICKER: process.env.AUTO_STICKER || "false",
+    AUTO_STICKER: process.env.AUTO_STICKER || "true",
     AUTO_REPLY: process.env.AUTO_REPLY || "true",
-    ALIVE_IMG: process.env.ALIVE_IMG || "https://github.com/Awais-star-a11y/TESTING-REPO/raw/refs/heads/main/IMG-20250505-WA0055.jpg",
-    ALIVE_MSG: process.env.ALIVE_MSG || "HII DEAR IM ONLINE I'M DARK-AMDA-MD WHATSAPP BOT 😊♻️",
+    ALIVE_IMG: process.env.ALIVE_IMG || "https://i.postimg.cc/c18XWSkx/20251023-163321.png",
+    ALIVE_MSG: process.env.ALIVE_MSG || "HII DEAR IM ONLINE I'M KING-AMDA-MD WHATSAPP BOT 😊♻️",
     ANTI_LINK: process.env.ANTI_LINK || "true",
     ANTI_CALL: process.env.ANTI_CALL || "true",
     BAD_NUMBER_BLOCKER: process.env.BAD_NUMBER_BLOCKER || "true",
-    ANTI_BAD: process.env.ANTI_BAD || "true",
+    ANTI_BAD: process.env.ANTI_BAD || "false",
     PREFIX: process.env.PREFIX || ".",
     FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
     FAKE_TYPING: process.env.FAKE_TYPING || "false",
